@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(142, 207, 184);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 120px;
+    background-color: rgb(171, 230, 230);
+    border: solid rgb(182, 134, 229);
+    border-radius: 1800px;
+
+
+}
+
+#reg-form{
+ 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    top: 200px;
+    left: 10px;
+    margin-bottom: 400px;
+    
+    
+    
+
+}
+#reg-form label{
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+#reg-form input{
+    padding: 10px;
+    margin: 5px;
+    border: rgb(3, 107, 6);
+    border-radius: 28px;
+    cursor: pointer;
+
+}
+#reg-form  h2{
+    align-items: center;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: oblique;
+    position: relative;
+    bottom: 30px;
+    left: 55px;
+}
+#login-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    top: 200px;
+    left: 10px;
+    margin-bottom: 400px;
+    
+
+}
+#login-form input{
+    padding: 10px;
+    margin: 5px;
+    border: rgb(3, 107, 6);
+    border-radius: 28px;
+    cursor: pointer;
+ 
+ }
+ #login-form button{
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+    top: 20px;
+    border: solid rgba(153, 210, 184, 0.366);
+    border-radius: 28px;
+    cursor: pointer;
+    align-items: center;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: oblique;
+ }
+ #secured{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    color: white;
+    position: relative;
+    top: 200px;
+    left: 10px;
+    margin-bottom: 400px;
+    padding: 10px;
+    margin: 10px;
+
+   
+    
+   
+ }
+ #secured h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+
+ }
+ #secured p{
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+ }
+ #success-message {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    text-align: center;
+}
+
+#success-message p {
+    margin: 0;
+}
+
+#close-icon {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+}
